@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>My online resume</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/style_index.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="parallax.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+
+
+<body>
+ <!-- partie header avec la barre de navigation -->
+<header id="home">
+	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation bar">
+		<div class="container">
+
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse-target" aria-expanded="false">
+        		<span class="sr-only">Toggle navigation</span>
+        		<span class="icon-bar"></span>
+        		<span class="icon-bar"></span>
+        		<span class="icon-bar"></span>
+      			</button> <!-- collapse button -->
+				<!-- <a class="navbar-brand" href="#logo" id="monlogo"></a>	 -->			
+			</div> <!-- navbarheader -->
+
+			<div class="collapse navbar-collapse" id="collapse-target">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#home" id="scrollhome">Home</a></li>
+					<li><a href="#aboutme" id="scrollabout">About Me</a></li>
+					<li><a href="#skills" id="scrollweb">Web Dev</a></li>
+					<li><a href="#skills-VG" id="scrollVG">Video Game Dev</a></li>
+					<li><a href="index_fr.html" id="change-lang"><img src="img/logo-FR.png"></a></li>
+				</ul>
+			</div> <!-- collapse -->
+		</div> <!-- container -->	
+
+	</nav>
+</header>
+
+				<!-- partie carousel avec le texte d'intro -->
+<div class="carousel slide" data-ride="carousel" id="carousel-header">
+	<div class="carousel-inner">
+		<div class="item"><img src="img/background-1-resize.jpg" alt="première image du carousel"></div>
+		<div class="item"><img src="img/background-3.jpeg" alt="deuxième image du carousel"></div>
+		<div class="item active"><img src="img/background-2.jpeg" alt="troisième image du carousel"></div>
+		<div class="item"><img src="img/background-5.jpg" alt="quatrième image du carousel"></div>
+		<div class="item"><img src="img/background-4.jpeg" alt="cinquième image du carousel"></div>
+
+		<div class="row" id="intro">
+			<h1 class="col-lg-12">Nguyen Cong Thomas</h1>
+			<p class="col-xs-8 col-xs-offset-2 col-lg-6 col-lg-offset-3">Hi I’m thomas, I'm a student, currently in my first year of school learning web and applications development. This website is a project I worked on to be used as an online resume for people that could be interested in my profile.<br>
+			This is a single page website, so feel free to scroll down or use the navigation menu up on the right to have a look around
+			</p>
+		</div> <!-- texte intro -->
+	</div> <!-- carousel inner -->
+
+</div> <!-- carousel slide  -->
+
+<!-- <div class="parallax-window1" data-parallax="scroll" data-z-index="-1" data-image-src="img/bg-para4.jpg"> -->
+<div class="container" id="aboutme">
+	<div class="row">
+		<h1 class="col-lg-12">About me</h1>
+
+		<div class="col-xs-10 col-sm-6 col-sm-offset-1 col-xs-offset-1">
+			<h3> Background</h3>
+			<article>My name is Thomas Nguyen Cong, and as said in the upper section, I'm studying web and app development at <a href="https://www.ingesup.com/" target="_blank">Ynov-Ingésup</a>. Before that I was studying  at the Sorbonne (Paris-1) where I got myself a Licence in management and economics. And even before that I graduated from highschool in economics with honors.<br>
+			Changing path from economics to development was definitly the right choice for me since I'm having much more fun than i did while I was still learning economics, law and accounting. Also I'm better at what I do now, learning feels easier than before and I can say that I've learned how to feels to enjoy work<br>
+			I've had a few real work experiences, mostly a summerjob in 2014 at the finance department of a company called Newedge group SA, as well as few internships here and there during my time in school and university.
+			</article>
+		</div> <!-- background -->
+
+		<div class="col-xs-10 col-sm-5 col-xs-offset-1 col-sm-offset-0">
+			<h3> Contact/Infos</h3>
+			<ul id="contact">
+				<li><span class="glyphicon glyphicon-envelope"></span>Thomas.nguyencong@ynov.com</li>
+				<li><span class="glyphicon glyphicon-earphone"></span>Tel : 06 87 21 56 84</li>
+				<li><span class="glyphicon glyphicon-home"></span>208 rue st-Denis, 75002 Paris</li>
+				<li><span class="glyphicon glyphicon-user"></span><a href="https://www.facebook.com/profile.php?id=1831734134&ref=bookmarks" target="_blank">Thomas Nguyen facebook</a></li>
+				<li><span class="glyphicon glyphicon-link"></span><a href="https://www.linkedin.com/in/thomas-nguyen-cong-8b9539154/" target="_blank">Thomas Nguyen Cong linkdn</a></li>
+				<li><span class="glyphicon glyphicon-education"></span><a href="https://www.ingesup.com/campus/paris/" target="_blank">Ynov-Ingésup</a></li>
+			</ul>
+		</div> <!-- contact/infos -->
+
+		<div class="col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1" id="hobbies">
+
+		<h3>Hobbies</h3>
+		<p>Just like everyone, I have different hobbies and interests, I enjoy sports very much and have been playing competitevely since I was very young, especially basketball, football and tennis. I also enjoy a large variety of music styles going from electronic tunes to french and belgian rap only to cite a few. I like travelling alot and even think it's an essential part of life, when I was younger i had the opportunity to go to many exciting countries all thanks to my family. Since then it's been an objective to see as much of the world as possible. </p>
+			
+		</div> <!-- hobbies -->
+	</div>	<!-- row -->
+</div> <!-- about me -->
+
+
+
+
+<div class="parallax-window2" data-parallax="scroll" data-z-index="1"; data-image-src="img/background-9.jpeg">
+</div>
+<div id="bg-skills">
+	<div class="container" id="skills">
+		<div class="row">
+
+			<div class="col-sm-10 col-sm-offset-1 col-lg-10 col-lg-offset-1 col-xs-10 col-xs-offset-1" id="webdev-skills">
+				
+				<h3 id="title-align">Web Development Skills</h3>
+				<p>So far during my time learning web development, I have had the opportunity to work on many different websites (from typical bootstrap websites to jsFiddle-like pages). These web pages were school projects  and as well as personal projects,doing all this gave me a ton of experience on the basic web development languages such as <strong>CSS3</strong>, <strong>HTML5</strong> and <strong>Javascript</strong>. You can take this page as reference for what I can build using these languages alone, and if this is not enough for you please remember that I will be doing better websites as times passes.
+				</p>								
+			</div>	
+
+			
+			<div class="col-sm-10 col-sm-offset-1 col-lg-10 col-lg-offset-1 col-xs-10 col-xs-offset-1" id="webdev-skills">
+			<h3>Websites Projects</h3>
+			<div class="row">
+				<div class="col-sm-6 col-sm-offset-0 col-lg-6 col-lg-offset-0 col-xs-10 col-xs-offset-1">
+						
+						<div id="projet-blog">
+							<h4>Blog</h4>
+							
+							<img src="img/Spaceblog.png">
+							<p>My very first webpage and project, it was a blog about anything we wanted, not my best result but it can be used to mesure progression. This served as a way to make us test what we learned when we first started learning <Strong>HTML</Strong> and <Strong>CSS</Strong>.</p>
+						</div>
+				</div>
+				<div class="col-sm-6 col-sm-offset-0 col-lg-6 col-lg-offset-0 col-xs-10 col-xs-offset-1">
+						
+						<div id="projet-blog">
+							<h4>Js code editor</h4>
+							
+							<img src="img/projetYdays.png">
+							<p>This page is basically a JsFiddle but only for javascript code. It's a page where you can create your own javaScript code using either the buttons on the left or writing directly in the text area on the right. This was my introduction to <Strong>Javascript</Strong>.</p>
+						</div>
+				</div>
+
+
+				</div>
+				<div class="row">
+					<div class="col-sm-12 col-sm-offset-0 col-lg-12 col-lg-offset-0 col-xs-12 col-xs-offset-0">
+							
+							<div id="projet-event">
+								<h4>One page Website</h4>
+								
+								<img src="img/projet-event1.png" id="img1">
+								<img src="img/projet-event2.png" id="img2">
+
+								<p>Another website, this time we had a template given to us and we had to start from scratch and recreate the page shown in the template. It was our final web development project and made us use everything we had learned at the time.</p>
+							</div>
+					</div>
+				</div>
+				
+		
+						
+			
+			</div> <!-- outer row -->
+		</div>
+	</div>
+</div>
+	
+<div class="parallax-window2" data-parallax="scroll" data-z-index="1"; data-image-src="img/parallax-6.jpg">
+</div>
+
+<div class="container" id="skills-VG">
+	<div class="row">
+		<div class="col-sm-10 col-sm-offset-1 col-lg-10 col-lg-offset-1 col-xs-10 col-xs-offset-1" id="webdev-skills">
+			<h3 id="title-align">Games & app development</h3>
+			<p>Building web pages is not the only thing I've learned yet, I also had to chance to work on building small applications using object oriented languages such as <strong>Java</strong> and <strong>CSharp</strong> for unity. This is the part of development had the most fun with, since it requires us to think harder in order to find one of many existing solutions to our problems. Developping a game was a break-trough experience for me and I will keep working on similar projects in the near future.</p>	
+		</div>
+		<div class="col-sm-10 col-sm-offset-1 col-lg-10 col-lg-offset-1 col-xs-10 col-xs-offset-1" id="webdev-skills">
+			<h3 >Video Game Projects</h3>
+			<div class="row">
+				
+				<div class="row">
+					<div class="col-sm-12 col-sm-offset-0 col-lg-12 col-lg-offset-0 col-xs-12 col-xs-offset-0">
+
+						<div id="projet-event">
+							<h4>Baby Kraken</h4>
+							
+							<img src="img/projet-krakky1.png" id="img1">
+							<img src="img/projet-krakky2.png" id="img2">
+
+							<p>This is the video game I worked as our biggest project of the year. It's a 2d game made to be played on a computer, it's a rage inducing game that can be quite unfair, but is always lots of fun. I was part of a team of 3 developpers (which had never used any game engine beforehand), 3 artists and 2 economics students. it was quite the challenge to learn how to use Unity2d and animate a tentacle well enough to make it look real, but we managed.
+							</p>
+						</div>
+					</div>
+					<div class="row">
+					<div class="col-sm-12 col-sm-offset-0 col-lg-12 col-lg-offset-0 col-xs-12 col-xs-offset-0">
+
+						<div id="projet-event">
+							<h4>Cosmo Quest</h4>
+							
+							<img src="img/projet-CosmoQuest.png" id="img3">
+							<img src="img/projet-Cosmo2.png" id="img2">
+
+							<p>
+							Cosmo Quest is a game that was made for a Game Jam, the requirements were "confrontation between 2d and 3d world", this is a platformer developped in Unity 3d. The main game mechanic is that you can press a key to switch between dimensions. The game is still under developpment but it will definitly see the light of day sometime.
+							</p>
+						</div>
+					</div>				
+				</div>
+			</div> <!-- row -->
+						
+			
+		</div> <!-- outer row -->
+	</div> <!-- outer container -->	
+</div>
+
+</div><!-- parallax fond1 -->
+<footer id="footer">
+	<h3>Thank you for visiting my page</h3>
+	<p>Feel free to contact me if you are interested in anything I can make, In case you need  a presentation website or have an idea for a small video game.</br>
+	here is all my info : <a href="#aboutme" id="scrollabout">link</a></p>
+	<hr>
+	<p id="copyright">&copy;Thomas Nguyen Cong 2018, all rights reserved.</p>
+</footer>
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script type="text/javascript" src="jquery.scrollTo.min.js"></script>
+
+<script type="text/javascript" src="js/js_index.js"></script>
+</body>
+</html>

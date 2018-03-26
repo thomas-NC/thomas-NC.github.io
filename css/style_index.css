@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+
+body {
+	font-family: 'Roboto', sans-serif;
+	height: 2700px;
+	background-color: black;
+	padding-top: 50px;
+}
+h1 {
+	font-family: 'Open Sans', sans-serif;
+}
+/** navbar section **/
+.navbar-inverse {
+	border-radius: 0;
+	background-color: rgba(20,20,20, 0.8);
+	border: solid 0px;
+}
+
+#monlogo {
+	background-image: url('../img/mon-logo.jpg');
+	background-position: center;
+	background-size: 60%;
+	background-repeat: no-repeat;
+	width: 120px;
+	height: 50px;
+
+}
+.navbar-inverse .navbar-nav li a{
+	color: white;
+	border-radius: 2px;
+	padding-left: 15px;
+	padding-right: 15px;
+
+}
+
+.navbar-inverse .navbar-nav li a:hover{
+	background: rgba(200, 200, 200, 0.4);
+	transition: all 1s ease-out;
+}
+
+.navbar-inverse .navbar-nav li a:active{
+	color: seagreen;
+	background-color: white;
+	transition: all 0.25s ease-out;
+}
+#change-lang img{
+	width: 20px;
+}
+
+/** zone texte d'intro **/
+
+
+
+#intro {
+	text-align: center;
+	color: white;
+	position: absolute;
+	bottom: 40%;
+}
+
+#intro h1 {
+	font-size: 40px;
+	margin-bottom: 15px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#intro p {
+	padding-top: 20px;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 0.5px;
+}
+
+@media only screen
+and (max-width: 900px) {
+	#intro {
+		top: 15%;
+	}
+	#intro h1 {
+		font-size: 35px;
+	}
+}
+/** responsivité pour le texte au dessus du carousel **/
+@media only screen
+and (max-width: 768px){
+	#intro h1 {
+		font-size: 30px;
+	}
+	#intro p{
+		font-size: 13px;
+		color: 
+	}
+}
+@media only screen
+and (max-width: 560px) {
+	#intro h1 {
+		font-size: 25px;
+		margin-bottom: 5px;
+	}
+	#intro p {
+		font-size: 10px;
+		padding-top: 5px;
+	}
+}
+/** zone about me **/
+#aboutme {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: white;
+}
+#aboutme h1 {
+	text-align: center;
+	padding-bottom: 20px;
+}
+#aboutme #contact {
+	list-style-type: none;
+	list-style-position: inside;
+	padding-left: 0;
+	font-size: 16px;
+}
+#aboutme #hobbies {
+	margin-bottom: 50px;
+}
+#aboutme h3{
+	color: darkslategrey;
+}
+#aboutme #contact li {
+	margin-bottom: 15px;
+}
+#aboutme #contact li:first-child {
+	padding-top: 0px;
+}
+#aboutme #contact span {
+	font-size: 20px;
+	padding-right: 15px;
+	position: relative;
+	top: 5px;
+	color: seagreen;
+}
+#aboutme a{
+	color: coral;
+	text-decoration: none;
+}
+
+/** partie skills **/
+#bg-skills{
+	background: black;
+	width: 0 auto;
+}
+
+#skills {
+	background: white;
+	padding-left: 0px;
+
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#skills #webdev-skills{
+	padding-right: 25px;
+	color: black;
+	
+}
+
+#skills #webdev-skills strong{
+	color: seagreen;
+}
+#skills #webdev-skills h3{
+	margin-bottom: 20px;
+	color: coral;
+}
+#skills #webdev-skills #title-align{
+	text-align: center;
+	color: darkslategrey;
+}
+#skills #webdev-skills  #projet-blog img{
+	width: 100%;
+	border-radius: 2px;
+	border: solid seagreen 1.5px;
+}
+#skills #webdev-skills h4{
+	color: darkslategrey;
+	text-align: center;
+}
+
+#skills-VG {
+	background: white;
+	padding-left: 0px;
+
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#skills-VG #webdev-skills{
+	padding-right: 25px;
+	color: black;
+	
+}
+
+#skills-VG #webdev-skills strong{
+	color: seagreen;
+}
+#skills-VG #webdev-skills h3{
+	margin-bottom: 20px;
+	color: coral;
+}
+#skills-VG #webdev-skills #title-align{
+	text-align: center;
+	color: darkslategrey;
+}
+#skills-VG #webdev-skills  #projet-blog img{
+	width: 100%;
+	border-radius: 2px;
+	border: solid seagreen 1.5px;
+}
+#skills-VG #webdev-skills h4{
+	color: darkslategrey;
+	text-align: center;
+}
+
+#projet-blog p{
+	padding-top: 20px;
+	margin-bottom: 25px;
+}
+#projet-event #img1{
+	width: 48%;
+	margin-right: 2%;
+	border-radius: 2px;
+	border: solid seagreen 1.5px;
+}
+#projet-event #img2{
+	width: 48%;
+	border-radius: 2px;
+	border: solid seagreen 1.5px;
+}
+#projet-event #img3{
+	width: 46%;
+	margin-right: 2%;
+	margin-left: 2%;
+	border-radius: 2px;
+	border: solid seagreen 1.5px;
+}
+
+
+#projet-event p{
+
+	padding-top: 20px;
+	
+	margin-bottom: 25px;
+}
+
+/** footer **/
+footer{
+	height: 150px;
+	width: 0 auto;
+	background-color: black;
+	text-align: center;
+	color: white;
+}
+footer h3{
+	padding-top: 50px;
+	font-size: 20px; 
+}
+
+footer #copyright{
+	margin-top: 25px;
+	color: grey;
+}
+
+/** parallax **/
+.parallax-window2 {
+    height: 250px;
+    background: transparent;
+}
+.parallax-window1 {
+    min-height: 850px;
+    background: transparent;
+}
+
+/**
+@media only screen
+and (max-width: 991px){
+	#skills #background-skills {
+		background-size: 140%;
+		height: 350px;
+	}
+	#skills #webdev-skills img{
+	width: 200px;
+	}
+
+}
+@media only screen
+and (max-width: 767px){
+	#skills #background-skills {
+		height: 125px;
+	}
+	#skills #webdev-skills img{
+	width: 250px;
+	padding-top: 30px;
+	}
+	#skills #webdev-skills h2{
+	padding-top: 10px;
+	margin-bottom: 20px;
+	}
+	#skills #webdev-skills p{
+		margin-bottom: 50px;
+	}
+}
+**/
+
