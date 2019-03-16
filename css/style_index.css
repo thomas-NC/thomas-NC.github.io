@@ -148,6 +148,15 @@ and (max-width: 560px) {
 	width: 0 auto;
 }
 
+#bg-skills img {
+	margin: 10px 0 10px 0;
+	max-width: 100%;
+	max-height: 100%;
+	border-radius: 2px;
+	box-shadow: 2px 2px darkslategray;
+	border: solid 1px seagreen;
+}
+
 #skills {
 	background: white;
 	padding-left: 0px;
@@ -172,11 +181,6 @@ and (max-width: 560px) {
 #skills #webdev-skills #title-align{
 	text-align: center;
 	color: darkslategrey;
-}
-#skills #webdev-skills  #projet-blog img{
-	width: 100%;
-	border-radius: 2px;
-	border: solid seagreen 1.5px;
 }
 #skills #webdev-skills h4{
 	color: darkslategrey;
