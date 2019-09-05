@@ -2,12 +2,13 @@
 
 body {
 	font-family: 'Roboto', sans-serif;
-	height: 2700px;
 	background-color: black;
-	padding-top: 50px;
 }
-h1 {
-	font-family: 'Open Sans', sans-serif;
+h2, h1 {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 0 0 0;
+    padding: 15px 0 15px 0;
+    text-align: center;
 }
 /** navbar section **/
 .navbar-inverse {
@@ -285,8 +286,20 @@ footer #copyright{
 /* styles pour la page des rapports de stage */
 
 #HeaderStages {
-	background-color: aqua;
-	height: 50px;
+    padding-top: 3%;
+    padding-bottom: 2%;
+	background-color:  #d0ece7 ;
+}
+
+#HeaderStages p {
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 2px;
+    box-shadow: 2px 2px black;
 }
 
 /**
